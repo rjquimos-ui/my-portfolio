@@ -852,6 +852,31 @@ body {
         width: 280px;
         height: 280px;
     }
+
+    .about-content {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 30px !important;
+        text-align: left !important; /* Keeps paragraph text left-aligned for readability */
+    }
+
+    .about-img-wrapper {
+        max-width: 100% !important;
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .about-text-card {
+        width: 100% !important;
+        max-width: 100% !important;
+        padding: 25px !important; /* Reduces large desktop margins so text has more room */
+        font-size: 1rem !important;
+    }
+
+    .about-title {
+        font-size: 2rem !important; /* Scales down title font size so lines don't break awkwardly */
+        margin-bottom: 30px !important;
+    }
     
     .projects-title {
         font-size: 2.5rem;
